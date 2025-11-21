@@ -1,0 +1,130 @@
+// * normalize styles
+@import "../../node_modules/modern-normalize/modern-normalize.css";
+
+// * colors here
+:root {
+  // neutral colors
+  --color-gray-white: #fff;
+  --color-gray-50: #f8fafc;
+  --color-gray-100: #f3f4f6;
+  --color-gray-200: #e2e8f0;
+  --color-gray-300: #cbd5e1;
+  --color-gray-400: #94a3b8;
+  --color-gray-500: #64748b;
+  --color-gray-600: #475569;
+  --color-gray-700: #334155;
+  --color-gray-800: #1e293b;
+  --color-gray-900: #0f172a;
+  --color-gray-950: #020617;
+  --color-gray-black: #000;
+
+  // primary colors
+  --color-primary-50: #ebe4f6;
+  --color-primary-100: #e0d5f1;
+  --color-primary-200: #cdbee9;
+  --color-primary-300: #b9a3e0;
+  --color-primary-400: #a488d7;
+  --color-primary-500: #9575d1;
+  --color-primary-600: #815bc8;
+  --color-primary-700: #6a3ebb;
+  --color-primary-800: #502f8e;
+  --color-primary-900: #362060;
+  --color-primary-950: #160d26;
+
+  // accent colors
+  --color-yellow-200: #f5f596;
+  --color-yellow-600: #d2d232;
+
+  --color-red-200: #f98c86;
+  --color-red-600: #e4423a;
+
+  --color-blue-200: #87cde0;
+  --color-blue-600: #2c8faa;
+}
+
+// * fonts here
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+html {
+  // set font-size to 10px for rem units
+  // use percentage to repect users default browser font size (scales)
+  font-size: 62.5%;
+  height: 100%;
+
+  @media screen and (max-width: 68.75em) {
+    font-size: 56.25%;
+  }
+
+  @media screen and (max-width: 60em) {
+    font-size: 50%;
+  }
+}
+
+body {
+  font-family: var(--font-noto-serif);
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--color-gray-800);
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: #fbfbfb;
+}
+
+// * heading styles
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--font-noto-serif);
+  color: var(--color-primary-950);
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  font-size: 8rem;
+}
+
+h2 {
+  font-size: 6.4rem;
+}
+
+h3 {
+  font-size: 4.8rem;
+}
+
+h4 {
+  font-size: 3.2rem;
+}
+
+h5 {
+  font-size: 2.4rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+// * form elements
+button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: inherit;
+}
+
+input,
+textarea,
+select {
+  border: none;
+}
