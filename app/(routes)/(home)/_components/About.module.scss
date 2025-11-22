@@ -10,8 +10,13 @@
   gap: 2.4rem;
 }
 
+// TODO: art direction to image
 .imageContainer {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("../../../../public/images/about.jpeg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }

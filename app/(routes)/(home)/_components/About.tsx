@@ -2,8 +2,6 @@ import Container from "@/app/_components/Container";
 import Section from "@/app/_components/Section";
 import { FC } from "react";
 import styles from "./About.module.scss";
-import aboutImage from "../../../../public/images/about.jpeg";
-import Image from "next/image";
 
 type AboutProps = object;
 
@@ -26,13 +24,7 @@ const About: FC<AboutProps> = ({}) => {
           </p>
         </div>
 
-        <div className={styles.imageContainer}>
-          <Image
-            src={aboutImage}
-            alt="About"
-            style={{ width: "auto", height: "100%" }}
-          />
-        </div>
+        <div className={styles.imageContainer}></div>
       </Container>
     </Section>
   );
