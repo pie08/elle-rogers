@@ -4,6 +4,7 @@ import { FC } from "react";
 import styles from "./Hero.module.scss";
 import Section from "@/app/_components/Section";
 import Image from "next/image";
+import heroBg from "../../../../public/images/hero-bg.jpg";
 
 type HeroProps = object;
 
@@ -20,7 +21,7 @@ const Hero: FC<HeroProps> = ({}) => {
 
       {/* background image */}
       <Image
-        src="/images/hero-bg.jpg"
+        src={heroBg}
         alt="Hero Background"
         fill
         className={styles.heroBg}
