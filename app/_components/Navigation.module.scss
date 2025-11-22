@@ -1,0 +1,30 @@
+.header {
+  background-color: var(--color-gray-white);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 2.4rem 4.8rem;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4.8rem;
+  list-style: none;
+
+  &:hover li {
+    opacity: 0.5;
+  }
+
+  & li {
+    transition: all 0.2s;
+
+    &:hover {
+      opacity: 1 !important;
+      color: var(--color-primary-600);
+    }
+  }
+}
