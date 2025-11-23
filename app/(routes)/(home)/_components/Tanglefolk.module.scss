@@ -1,0 +1,31 @@
+.tanglefolk {
+  background-color: var(--color-primary-50);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6.4rem;
+  align-items: center;
+}
+
+.imageContainer {
+  position: relative;
+  z-index: 1;
+
+  & .splashImage {
+    position: absolute;
+    bottom: -7rem;
+    right: -7rem;
+    width: 48rem;
+    height: 48rem;
+    z-index: -1;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  align-items: flex-start;
+}
