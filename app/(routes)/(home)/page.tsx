@@ -4,6 +4,7 @@ import Hero from "./_components/Hero";
 import InspiredBy from "./_components/InspiredBy";
 import Tanglefolk from "./_components/Tanglefolk";
 import Newsletter from "./_components/Newsletter";
+import Contact from "./_components/Contact";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Tanglefolk />
       <InspiredBy />
       <Newsletter />
+      <Contact />
     </main>
   );
 }
