@@ -5,6 +5,7 @@ import InspiredBy from "./_components/InspiredBy";
 import Tanglefolk from "./_components/Tanglefolk";
 import Newsletter from "./_components/Newsletter";
 import Contact from "./_components/Contact";
+import Footer from "@/app/_components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <InspiredBy />
       <Newsletter />
       <Contact />
+      <Footer />
     </main>
   );
 }

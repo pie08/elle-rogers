@@ -1,0 +1,30 @@
+.footer {
+  background-color: var(--color-primary-800);
+  padding: 4.8rem 4.8rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  align-items: flex-start;
+
+  & h3 {
+    color: var(--color-primary-200);
+  }
+}
+
+.socials {
+  display: flex;
+  gap: 1.6rem;
+
+  & a {
+    font-size: 4rem;
+    color: var(--color-primary-200);
+    transition: all 0.2s;
+  }
+
+  & a:hover {
+    color: var(--color-primary-50);
+  }
+}
