@@ -40,7 +40,10 @@ const Contact: FC<ContactProps> = ({}) => {
           </p>
           <div className={styles.email}>
             <MdOutlineEmail className={styles.icon} />
-            <a href="mailto:hello@ellerogers.com">hello@ellerogers.com</a>
+            <a href="mailto:	barry.rogers1@comcast.net">
+              {" "}
+              barry.rogers1@comcast.net
+            </a>
           </div>
         </div>
 
