@@ -45,13 +45,19 @@ const Contact: FC<ContactProps> = ({}) => {
         </div>
 
         <form action={handleSubmit} className={styles.form}>
-          <TextInput fieldName="Full Name" fieldId="fullName" />
-          <TextInput fieldName="Email" fieldId="email" fieldType="email" />
+          <TextInput fieldName="Full Name" fieldId="fullName" required />
+          <TextInput
+            fieldName="Email"
+            fieldId="email"
+            fieldType="email"
+            required
+          />
           <TextInput
             fieldName="Message"
             fieldId="message"
             inputType="textarea"
             className={styles.textarea}
+            required
           />
           <Button btnStyle="outline">Send Message</Button>
 
