@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Noto_Serif } from "next/font/google";
 import "@/app/_styles/globals.scss";
+import { Toaster } from "react-hot-toast";
 
 // import font
 const notoSerif = Noto_Serif({
@@ -21,7 +22,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={notoSerif.variable}>{children}</body>
+      <body className={notoSerif.variable}>
+        <Toaster />
+        {children}
+      </body>
     </html>
   );
 }
