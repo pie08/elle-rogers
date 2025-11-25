@@ -19,7 +19,7 @@ type CardProps = {
 
 const InspiredBy: FC<InspiredByProps> = ({}) => {
   return (
-    <Section>
+    <Section id="inspiredby">
       <Container className={styles.container}>
         <h2>INSPIRED BY</h2>
 

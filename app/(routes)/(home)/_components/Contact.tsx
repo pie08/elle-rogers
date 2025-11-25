@@ -30,7 +30,7 @@ const Contact: FC<ContactProps> = ({}) => {
   };
 
   return (
-    <Section>
+    <Section id="contact">
       <Container className={styles.container}>
         <div className={styles.content}>
           <h2>TELL ME YOUR STORY</h2>

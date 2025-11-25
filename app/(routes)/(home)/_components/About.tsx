@@ -7,7 +7,7 @@ type AboutProps = object;
 
 const About: FC<AboutProps> = ({}) => {
   return (
-    <Section className={styles.about}>
+    <Section className={styles.about} id="about">
       <Container className={styles.container}>
         <div className={styles.content}>
           <h2>ABOUT ME</h2>

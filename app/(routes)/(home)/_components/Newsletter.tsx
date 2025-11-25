@@ -24,7 +24,7 @@ const Newsletter: FC<NewsletterProps> = ({}) => {
   };
 
   return (
-    <Section dark>
+    <Section dark id="newsletter">
       <Container className={styles.container}>
         <h4>JOIN MY NEWSLETTER!</h4>
         <p>Lorem ipsum dolor sit amet consectetur.</p>

@@ -11,7 +11,7 @@ type TanglefolkProps = object;
 
 const Tanglefolk: FC<TanglefolkProps> = ({}) => {
   return (
-    <Section className={styles.tanglefolk}>
+    <Section className={styles.tanglefolk} id="tanglefolk">
       <Container className={styles.container}>
         {/* TODO: image slider */}
         <div className={styles.imageContainer}>

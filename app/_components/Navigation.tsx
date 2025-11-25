@@ -10,16 +10,24 @@ const Navigation: FC<NavigationProps> = ({}) => {
       <nav className={styles.nav}>
         <ul>
           <li>
-            <Link href="/">ABOUT</Link>
+            <Link href="/#about" scroll={true}>
+              ABOUT
+            </Link>
           </li>
           <li>
-            <Link href="/">TANGLEFOLK</Link>
+            <Link href="/#tanglefolk" scroll={true}>
+              TANGLEFOLK
+            </Link>
           </li>
           <li>
-            <Link href="/">NEWSLETTER</Link>
+            <Link href="/#newsletter" scroll={true}>
+              NEWSLETTER
+            </Link>
           </li>
           <li>
-            <Link href="/">CONTACT</Link>
+            <Link href="/#contact" scroll={true}>
+              CONTACT
+            </Link>
           </li>
         </ul>
       </nav>
