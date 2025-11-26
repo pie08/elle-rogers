@@ -10,7 +10,7 @@ type HeroProps = object;
 
 const Hero: FC<HeroProps> = ({}) => {
   return (
-    <Section className={styles.hero}>
+    <Section className={styles.hero} disableObserver>
       {/* content */}
       <Container className={styles.heroContent}>
         <h1>ELLE ROGERS</h1>

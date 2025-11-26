@@ -15,9 +15,9 @@
   gap: 2.4rem;
 
   & img {
-    height: 30rem;
+    max-height: 30rem;
+    width: 100%;
     object-fit: cover;
-    width: auto;
   }
 }
 
@@ -26,5 +26,4 @@
   flex-direction: column;
   gap: 1.6rem;
   align-items: flex-start;
-  // justify-content: center;
 }

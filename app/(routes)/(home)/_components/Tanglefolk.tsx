@@ -15,7 +15,11 @@ const Tanglefolk: FC<TanglefolkProps> = ({}) => {
       <Container className={styles.container}>
         {/* TODO: image slider */}
         <div className={styles.imageContainer}>
-          <Image src={tanglefolkImage} alt="Tanglefolk" />
+          <Image
+            src={tanglefolkImage}
+            alt="Tanglefolk"
+            className={styles.bookImage}
+          />
           <Image
             src={splashImage}
             alt="Splash"
