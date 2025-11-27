@@ -2,6 +2,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 6.4rem;
+
+  @media screen and (max-width: 49em) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .content {
@@ -19,4 +23,9 @@
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+
+  @media screen and (max-width: 49em) {
+    height: 50rem;
+    width: 100%;
+  }
 }

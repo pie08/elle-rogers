@@ -7,6 +7,10 @@
   grid-template-columns: 1fr 1fr;
   gap: 6.4rem;
   align-items: center;
+
+  @media screen and (max-width: 49em) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .imageContainer {
@@ -25,6 +29,18 @@
     width: 48rem;
     height: 48rem;
     z-index: -1;
+
+    @media screen and (max-width: 49em) {
+      width: 32rem;
+      height: 32rem;
+      bottom: -9rem;
+      right: -9rem;
+    }
+  }
+
+  @media screen and (max-width: 49em) {
+    justify-self: center;
+    width: 40rem;
   }
 }
 
