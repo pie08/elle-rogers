@@ -40,7 +40,8 @@
 
   @media screen and (max-width: 49em) {
     justify-self: center;
-    width: 40rem;
+    width: 100%;
+    max-width: 40rem;
   }
 }
 

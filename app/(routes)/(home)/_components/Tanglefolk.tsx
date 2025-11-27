@@ -35,7 +35,7 @@ const Tanglefolk: FC<TanglefolkProps> = ({}) => {
             nisi dolor urna cras eu cras urna. Imperdiet tincidunt lacus sapien
             pretium turpis eget. Fames mi ut velit cursus dui enim et nisl.
           </p>
-          <Button btnStyle="cta" href="/">
+          <Button btnStyle="cta" href="#tanglefolk">
             BUY TANGLEFOLK
           </Button>
         </div>

@@ -2,9 +2,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 6.4rem;
+  align-items: center;
 
   @media screen and (max-width: 49em) {
     grid-template-columns: 1fr;
+    gap: 4.8rem;
   }
 }
 
@@ -12,6 +14,10 @@
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
+
+  @media screen and (max-width: 49em) {
+    gap: 3.2rem;
+  }
 }
 
 // TODO: art direction to image
@@ -19,13 +25,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../../../../public/images/about.jpeg");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
 
-  @media screen and (max-width: 49em) {
-    height: 50rem;
+  & img {
     width: 100%;
+    height: auto;
+
+    @media screen and (max-width: 49em) {
+      max-width: 40rem;
+    }
   }
 }

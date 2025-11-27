@@ -19,6 +19,20 @@
   display: flex;
   gap: 1.2rem;
   align-items: center;
+
+  @media screen and (max-width: 49em) {
+    display: none;
+  }
+}
+
+.emailMobile {
+  display: none;
+
+  @media screen and (max-width: 49em) {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+  }
 }
 
 .icon {
@@ -38,6 +52,12 @@
 
   & button {
     background-color: var(--color-gray-white);
+  }
+
+  & .input {
+    @media screen and (max-width: 49em) {
+      grid-column: 1 / -1;
+    }
   }
 }
 

@@ -48,11 +48,17 @@ const Contact: FC<ContactProps> = ({}) => {
         </div>
 
         <form action={handleSubmit} className={styles.form}>
-          <TextInput fieldName="Full Name" fieldId="fullName" required />
+          <TextInput
+            fieldName="Full Name"
+            fieldId="fullName"
+            required
+            className={styles.input}
+          />
           <TextInput
             fieldName="Email"
             fieldId="email"
             fieldType="email"
+            className={styles.input}
             required
           />
           <TextInput
@@ -70,6 +76,14 @@ const Contact: FC<ContactProps> = ({}) => {
             className={styles.splashImage}
           />
         </form>
+
+        <div className={styles.emailMobile}>
+          <MdOutlineEmail className={styles.icon} />
+          <a href="mailto:	barry.rogers1@comcast.net">
+            {" "}
+            barry.rogers1@comcast.net
+          </a>
+        </div>
       </Container>
     </Section>
   );

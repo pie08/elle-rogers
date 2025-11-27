@@ -14,7 +14,7 @@ const Hero: FC<HeroProps> = ({}) => {
       {/* content */}
       <Container className={styles.heroContent}>
         <h1>ELLE ROGERS</h1>
-        <Button btnStyle="outline" href="/">
+        <Button btnStyle="outline" href="#tanglefolk">
           BUY TANGLEFOLK
         </Button>
       </Container>

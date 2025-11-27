@@ -7,6 +7,10 @@
   z-index: 100;
   padding: 2.4rem 4.8rem;
   transform-style: preserve-3d;
+
+  @media screen and (max-width: 49em) {
+    padding: 3.2rem 2.4rem;
+  }
 }
 
 .nav ul {
@@ -38,6 +42,7 @@
 
 .mobileNavButton {
   display: none;
+  position: relative;
 
   @media screen and (max-width: 49em) {
     display: flex;
@@ -47,7 +52,7 @@
     & span {
       display: block;
       width: 4.8rem;
-      height: 1px;
+      height: 2px;
       background-color: var(--color-gray-800);
       transition: all 0.2s;
 
@@ -97,6 +102,45 @@
     .nav {
       transform: translateY(0);
       box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.1);
+    }
+
+    .mobileNavButton {
+      & span {
+        &:nth-of-type(1) {
+          background-color: transparent;
+
+          &::after {
+            content: "";
+            width: 4.8rem;
+            height: 2px;
+            background-color: var(--color-gray-800);
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -100%) rotate(-45deg);
+          }
+        }
+        &:nth-of-type(3) {
+          background-color: transparent;
+
+          &::after {
+            content: "";
+            width: 4.8rem;
+            height: 2px;
+            background-color: var(--color-gray-800);
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -100%) rotate(45deg);
+            width: 4.8rem;
+          }
+        }
+        &:nth-of-type(2) {
+          opacity: 0;
+        }
+      }
     }
   }
 }
