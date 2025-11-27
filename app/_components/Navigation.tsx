@@ -1,13 +1,26 @@
-import Link from "next/link";
-import { FC } from "react";
-import styles from "./Navigation.module.scss";
+"use client";
 
+import Link from "next/link";
+import { FC, useState } from "react";
+import styles from "./Navigation.module.scss";
 type NavigationProps = object;
 
 const Navigation: FC<NavigationProps> = ({}) => {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleNav = () => setIsOpen((prev) => !prev);
+
   return (
-    <header className={styles.header}>
+    <header className={`${styles.header} ${isOpen ? styles.open : ""}`}>
+      {/* mobile naviagtion button */}
+      <button className={styles.mobileNavButton} onClick={toggleNav}>
+        <span>&nbsp;</span>
+        <span>&nbsp;</span>
+        <span>&nbsp;</span>
+      </button>
+
+      {/* navigation links */}
       <nav className={styles.nav}>
+        <div className={styles.mobileLine}></div>
         <ul>
           <li>
             <Link href="/#about" scroll={true}>
