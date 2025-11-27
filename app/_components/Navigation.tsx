@@ -12,7 +12,8 @@ const Navigation: FC<NavigationProps> = ({}) => {
   return (
     <header className={`${styles.header} ${isOpen ? styles.open : ""}`}>
       {/* mobile naviagtion button */}
-      <button className={styles.mobileNavButton} onClick={toggleNav}>
+      <button className={styles.icon} onClick={toggleNav}>
+        <span>&nbsp;</span>
         <span>&nbsp;</span>
         <span>&nbsp;</span>
         <span>&nbsp;</span>
