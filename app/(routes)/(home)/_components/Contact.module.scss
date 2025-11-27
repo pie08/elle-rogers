@@ -52,6 +52,10 @@
 
   & button {
     background-color: var(--color-gray-white);
+
+    @media screen and (max-width: 49em) {
+      grid-column: 1 / -1;
+    }
   }
 
   & .input {

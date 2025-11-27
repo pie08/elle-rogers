@@ -66,6 +66,10 @@
       flex-direction: column;
       gap: 2.4rem;
       align-items: flex-start;
+
+      & li a {
+        font-size: 2rem;
+      }
     }
 
     // default nav styles

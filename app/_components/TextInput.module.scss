@@ -8,6 +8,10 @@
     top: 0.6rem;
     translate: 0 0;
     font-size: 1.2rem;
+
+    @media screen and (max-width: 49em) {
+      top: 0.8rem;
+    }
   }
 
   & input,
@@ -27,6 +31,10 @@
     &:valid:not(:placeholder-shown) {
       border-color: var(--color-green-200);
     }
+
+    @media screen and (max-width: 49em) {
+      padding: 2.4rem 1.2rem 0.8rem 1.2rem;
+    }
   }
 
   & textarea {
@@ -42,5 +50,9 @@
     line-height: 1;
     transition: all 0.2s;
     pointer-events: none;
+
+    @media screen and (max-width: 49em) {
+      top: 2rem;
+    }
   }
 }
