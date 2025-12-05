@@ -14,15 +14,7 @@ const About: FC<AboutProps> = ({}) => {
         <div className={styles.content}>
           <h2>ABOUT ME</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Commodo blandit duis ornare
-            mollis volutpat ultrices ullamcorper egestas convallis. Feugiat vel
-            nisi dolor urna cras eu cras urna. Imperdiet tincidunt lacus sapien
-            pretium turpis eget. Fames mi ut velit cursus dui enim et nisl.
-            <br />
-            Amet mi senectus pellentesque ultrices ut ante sem commodo. Aliquet
-            vitae ut ullamcorper dolor aliquam diam quis amet. Amet ut ut ut
-            placerat ac elementum sit fusce venenatis. Sed duis nec volutpat et
-            accumsan ut quis. Vestibulum malesuada neque velit id enim.
+          Elle Rogers, mother of ten and world traveler, finds magic everywhere—from childhood days dreaming along the Ramapo River and roaming Virginia farmland to uncovering whispers of history on daily walks through a 400-year-old New England cemetery—and returns every story she writes to God as a gift.
           </p>
         </div>
 
