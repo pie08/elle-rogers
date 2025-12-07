@@ -30,10 +30,14 @@ const Tanglefolk: FC<TanglefolkProps> = ({}) => {
         <div className={styles.content}>
           <h2>TANGLEFOLK</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Commodo blandit duis ornare
-            mollis volutpat ultrices ullamcorper egestas convallis. Feugiat vel
-            nisi dolor urna cras eu cras urna. Imperdiet tincidunt lacus sapien
-            pretium turpis eget. Fames mi ut velit cursus dui enim et nisl.
+            From Santa’s sleigh to the Tooth Fairy’s wings, from the Easter
+            Bunny’s hop to Jack Frost’s sparkling touch, childhood is full of
+            magical visitors. Among them are the Tanglefolk—tiny forest people
+            who leave tangle kisses in a child’s hair as a thank-you. Each
+            night, the Tanglefolk gather the strands children naturally shed and
+            spin them into twinkling thread for tiny hats, coats, and dresses.
+            Morning bed head is no longer a mundane mess—it’s a sprinkle of
+            magic, proof that tiny weavers visited while your child dreamt.
           </p>
           <Button btnStyle="cta" href="#tanglefolk">
             BUY TANGLEFOLK
