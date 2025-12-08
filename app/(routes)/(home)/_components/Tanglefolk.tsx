@@ -28,7 +28,7 @@ const Tanglefolk: FC<TanglefolkProps> = ({}) => {
         </div>
 
         <div className={styles.content}>
-          <h2>TANGLEFOLK</h2>
+          <h2>THE TANGLEFOLK</h2>
           <p>
             From Santa’s sleigh to the Tooth Fairy’s wings, from the Easter
             Bunny’s hop to Jack Frost’s sparkling touch, childhood is full of
@@ -40,7 +40,7 @@ const Tanglefolk: FC<TanglefolkProps> = ({}) => {
             magic, proof that tiny weavers visited while your child dreamt.
           </p>
           <Button btnStyle="cta" href="#tanglefolk">
-            BUY TANGLEFOLK
+            BUY THE TANGLEFOLK
           </Button>
         </div>
       </Container>

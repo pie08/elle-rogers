@@ -35,8 +35,8 @@ const Contact: FC<ContactProps> = ({}) => {
         <div className={styles.content}>
           <h2>TELL ME YOUR STORY</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Commodo blandit duis ornare
-            mollis volutpat ultrices ullamcorper egestas convallis.
+            Did the Tanglefolk spark delight in your home? Tell me your story -
+            any enchantment, surprise, or tiny wonder is welcome.
           </p>
           <div className={styles.email}>
             <MdOutlineEmail className={styles.icon} />

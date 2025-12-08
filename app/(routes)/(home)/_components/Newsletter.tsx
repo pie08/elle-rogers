@@ -27,7 +27,7 @@ const Newsletter: FC<NewsletterProps> = ({}) => {
     <Section dark id="newsletter">
       <Container className={styles.container}>
         <h4>JOIN MY NEWSLETTER!</h4>
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <p>Join the adventure - enchantment awaits.</p>
         <form action={handleSubmit} className={styles.form}>
           <TextInput
             fieldName="Email"
