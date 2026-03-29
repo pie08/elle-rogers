@@ -35,5 +35,6 @@
 
 .heroBg {
   object-fit: cover;
-  object-position: 50% 30%;
+  object-position: 50% 50%;
+  transform: scaleX(-1);
 }
