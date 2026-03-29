@@ -1,0 +1,68 @@
+TECHNICAL & CRAWLING
+- Set canonical host (HTTPS, single www/non-www)
+- Configure robots.txt (allow rules, sitemap URL)
+- Generate and host XML sitemap; submit in Search Console / Bing Webmaster Tools
+- Return proper HTTP status codes (200, 301, 404)
+- Fix broken links and redirect chains
+- Use clean, readable URLs
+- Avoid duplicate content (canonical tags, consolidate variants)
+- Block staging/preview from indexing when public
+- Implement 301s for renamed or merged URLs
+- Ensure important pages are not orphaned (internal links in)
+- Mobile-friendly layout and tap targets
+- Valid HTML; fix critical crawl errors in coverage reports
+
+METADATA & SOCIAL
+- Unique <title> per page; sensible title template for site
+- Unique meta description per page (where used)
+- Set metadataBase / absolute URLs for OG and canonicals
+- Open Graph: type, title, description, url, image (ideally 1200×630), locale
+- Twitter card tags (or rely on OG fallbacks where appropriate)
+- Favicon and apple-touch-icon
+- Theme color / manifest if relevant to brand
+
+STRUCTURED DATA
+- Add JSON-LD where it matches real page content
+- Validate with Rich Results Test / Schema validator
+- Keep entity IDs (@id) consistent when linking types
+
+CONTENT & ON-PAGE
+- One clear primary topic per page; match H1 to intent
+- Logical heading hierarchy (H1 → H2 → H3)
+- Descriptive alt text on meaningful images
+- Anchor text that describes destination
+- Satisfy search intent; cover topic depth competitors cover
+
+PERFORMANCE & UX
+- Optimize LCP (hero image, fonts, server response)
+- Minimize CLS (dimensions on images/embeds, font loading)
+- Keep INP/TBT reasonable (JS budget, long tasks)
+- Use responsive images and modern formats where supported
+- Prefetch/preconnect critical origins sparingly
+
+INDEXING & DISCOVERY
+- Claim site in Google Search Console and Bing Webmaster Tools
+- Monitor indexing, sitemaps, and manual actions
+- Use noindex only on pages that should not appear in search
+
+SECURITY & TRUST
+- HTTPS everywhere; valid certificate; HSTS at edge if possible
+- Security headers (baseline CSP, X-Frame-Options or frame-ancestors as needed)
+
+LOCAL (if business has a physical location)
+- Consistent NAP across site and major directories
+- Google Business Profile / Bing Places
+- LocalBusiness or related schema where accurate
+
+INTERNATIONAL (if multiple languages/regions)
+- hreflang on reciprocal alternates
+- Separate URLs or locale paths per language; one language per URL
+
+OFF-SITE & REPUTATION
+- Earn relevant backlinks; avoid manipulative link schemes
+- Brand SERP monitoring (name, reviews)
+
+ONGOING
+- Refresh stale cornerstone content
+- Re-run audits after major releases
+- Track rankings and conversions for priority queries (tool of choice)
