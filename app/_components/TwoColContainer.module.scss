@@ -1,0 +1,21 @@
+.twoColContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4.8rem;
+
+  @media screen and (max-width: 50em) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.reorder {
+  @media screen and (max-width: 50em) {
+    & > :first-child {
+      order: 2;
+    }
+
+    & > :last-child {
+      order: 1;
+    }
+  }
+}

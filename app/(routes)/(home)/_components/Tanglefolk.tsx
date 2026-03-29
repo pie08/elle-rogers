@@ -1,3 +1,5 @@
+"use client";
+
 import Container from "@/app/_components/Container";
 import Section from "@/app/_components/Section";
 import { FC } from "react";
@@ -6,10 +8,13 @@ import Button from "@/app/_components/Button";
 import tanglefolkImage from "../../../../public/images/tanglefolk.jpeg";
 import splashImage from "../../../../public/images/splash.png";
 import Image from "next/image";
+import { useModal } from "@/app/_components/Modal";
 
 type TanglefolkProps = object;
 
 const Tanglefolk: FC<TanglefolkProps> = ({}) => {
+  const { open } = useModal();
+
   return (
     <Section className={styles.tanglefolk} id="tanglefolk">
       <Container className={styles.container}>
@@ -39,7 +44,7 @@ const Tanglefolk: FC<TanglefolkProps> = ({}) => {
             Morning bead head? Not an issue. It's a sprinkle of magic, proof
             that tiny weavers visited while your child dreamt.
           </p>
-          <Button btnStyle="cta" href="#tanglefolk">
+          <Button btnStyle="cta" onClick={() => open("purchase")}>
             BUY THE TANGLEFOLK
           </Button>
         </div>

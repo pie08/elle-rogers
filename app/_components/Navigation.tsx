@@ -39,6 +39,16 @@ const Navigation: FC<NavigationProps> = ({}) => {
             </Link>
           </li>
           <li>
+            <Link
+              href="https://thechosenlady.online"
+              target="_blank"
+              scroll={true}
+              onClick={toggleNav}
+            >
+              BLOG
+            </Link>
+          </li>
+          <li>
             <Link href="/#contact" scroll={true} onClick={toggleNav}>
               CONTACT
             </Link>

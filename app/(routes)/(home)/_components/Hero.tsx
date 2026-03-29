@@ -1,3 +1,5 @@
+"use client";
+
 import Button from "@/app/_components/Button";
 import Container from "@/app/_components/Container";
 import { FC } from "react";
@@ -5,16 +7,23 @@ import styles from "./Hero.module.scss";
 import Section from "@/app/_components/Section";
 import Image from "next/image";
 import heroBg from "../../../../public/images/hero-bg.jpg";
+import { useModal } from "@/app/_components/Modal";
 
 type HeroProps = object;
 
 const Hero: FC<HeroProps> = ({}) => {
+  const { open } = useModal();
+
   return (
     <Section className={styles.hero} disableObserver>
       {/* content */}
       <Container className={styles.heroContent}>
         <h1>ELLE ROGERS</h1>
-        <Button btnStyle="outline" href="#tanglefolk">
+        <Button
+          btnStyle="outline"
+          onClick={() => open("purchase")}
+          aria-label="buy the tanglefolk"
+        >
           BUY THE TANGLEFOLK
         </Button>
       </Container>
