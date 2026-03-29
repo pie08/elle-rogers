@@ -33,12 +33,12 @@ const ComingSoon: FC<ComingSoonProps> = () => {
               story, widow by widow—and to look closely at what God reveals
               about Himself in each circumstance. Through women like Naomi,
               Ruth, the widow of Zarephath, and the widow of Nain, a pattern
-              begins to emerge: Not just who they arebut who God proves Himself
+              begins to emerge: Not just who they are but who God proves Himself
               to be Each chapter asks two honest questions: Lord, am I still
-              worthy here?God, are You still who You say You are—here? Because
+              worthy here? God, are You still who You say You are—here? Because
               biblical worth is not something we rebuild after loss. It is
               something that was never lost to begin with. It is rooted in this
-              truth: You were bought with a price.You are called by name.You
+              truth. You were bought with a price. You are called by name. You
               belong to God. A Widow’s Worth is a journey through grief,
               identity, provision, and belonging—and ultimately, a return to the
               question only you can answer: Do I believe it?
