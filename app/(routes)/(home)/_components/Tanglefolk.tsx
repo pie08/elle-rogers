@@ -37,12 +37,12 @@ const Tanglefolk: FC<TanglefolkProps> = ({}) => {
           <p>
             From Santa’s sleigh to the Tooth Fairy’s wings, from the Easter
             Bunny’s hop to Jack Frost’s sparkling touch, childhood is full of
-            magical visitors. Among them are the Tanglefolk—tiny forest people
-            who leave tangle kisses in a child’s hair as a thank-you. Each
-            night, the Tanglefolk gather the strands children naturally shed and
-            spin them into twinkling thread for tiny hats, coats, and dresses.
-            Morning bead head? Not an issue. It's a sprinkle of magic, proof
-            that tiny weavers visited while your child dreamt.
+            magical visitors. Among them are the Tanglefolk—tiny people who
+            leave tangle kisses in a child’s hair as a thank-you. Each night,
+            the Tanglefolk gather the strands children naturally shed and spin
+            them into twinkling thread for tiny hats, coats, and dresses.
+            Morning bed head? Not an issue. It's a sprinkle of magic, proof that
+            tiny weavers visited while your child dreamt.
           </p>
           <Button btnStyle="cta" onClick={() => open("purchase")}>
             BUY THE TANGLEFOLK

@@ -8,6 +8,7 @@ import Footer from "@/app/_components/Footer";
 import ComingSoon from "./_components/ComingSoon";
 import { ModalWindow } from "@/app/_components/Modal";
 import PurchaseModal from "@/app/_components/modalWindows/PurchaseModal";
+import Visits from "./_components/Visits";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <About />
         <Tanglefolk />
         <ComingSoon />
+        <Visits />
         <Newsletter />
         <Contact />
       </main>
