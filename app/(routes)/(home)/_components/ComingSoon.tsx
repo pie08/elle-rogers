@@ -75,12 +75,20 @@ const ComingSoon: FC<ComingSoonProps> = () => {
             </div>
 
             <p>
-              In this moving and metaphor-rich book, Elle Rogers uses the
-              language of travel—airports, borders, baggage, and unfamiliar
-              terrain—to give voice to an experience that often feels impossible
-              to explain. She explores the people who step into grief with
-              you—and those who remain at a distance. She explores the quiet
-              weight of being forgotten in your loss, the sacred gift of
+              Dual Citizenship is a compassionate and deeply honest reflection
+              on what it means to live after loss. When grief enters your life,
+              it doesn’t simply change how you feel—it changes where you live.
+              <br />
+              <br />
+              There is Life Before, where everything once made sense. And there
+              is Heartbroken—a vast and unfamiliar country where time moves
+              differently, love and sorrow share the same space, and the old
+              maps no longer work. In this moving and metaphor-rich book, Elle
+              Rogers uses the language of travel—airports, borders, baggage, and
+              unfamiliar terrain—to give voice to an experience that often feels
+              impossible to explain. She explores the people who step into grief
+              with you—and those who remain at a distance. She explores the
+              quiet weight of being forgotten in your loss, the sacred gift of
               presence over solutions, and the strange, tender reality of
               learning to live in two places at once.
             </p>

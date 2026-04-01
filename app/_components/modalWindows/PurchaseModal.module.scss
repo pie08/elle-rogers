@@ -19,9 +19,6 @@
 
 .buttons {
   display: flex;
+  flex-direction: column;
   gap: 1.6rem;
-
-  @media screen and (max-width: 37.5em) {
-    flex-direction: column;
-  }
 }

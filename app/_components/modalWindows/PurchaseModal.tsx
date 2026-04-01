@@ -26,6 +26,12 @@ const PurchaseModal: FC<PurchaseModalProps> = ({}) => {
         >
           Barnes & Noble
         </Button>
+        <Button
+          href="https://www.booksamillion.com/search?query=The+Tanglefolk"
+          btnStyle="cta"
+        >
+          Books-A-Million
+        </Button>
       </div>
     </div>
   );
