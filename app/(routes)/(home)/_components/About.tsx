@@ -14,15 +14,17 @@ const About: FC<AboutProps> = ({}) => {
         <div className={styles.content}>
           <h2>ABOUT ME</h2>
           <p>
-            As a child, I was a quiet library lurker who grew up into a happily
-            married mom of a tribe, then a page at my local library.  I loved
-            putting books back on the shelves, because it allowed me to sneakily
-            read a few pages of all genres while getting paid. I decided a
-            degree in Library Science sounded like a good fit, so I utilized an
-            online degree program through the University of Maine at Augusta.
-            Nine years later, my four year degree program was complete!  Being a
-            page taught me that I wanted to see my own books on library shelves,
-            as I have always been a writer. 
+            As a child, I was a quiet library lurker who grew up to become a
+            happily married mom of a tribe—and later, a page at my local
+            library. I loved putting books back on the shelves because it
+            allowed me to sneakily read a few pages from every genre while
+            getting paid.
+            <br />
+            <br />I decided a degree in Library Science sounded like a good fit,
+            so I enrolled in an online program through the University of Maine
+            at Augusta. Nine years later, my four-year degree was complete!
+            Working as a page confirmed what had always been true: I didn’t just
+            love books—I wanted to write them.
           </p>
         </div>
 

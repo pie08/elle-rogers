@@ -41,7 +41,7 @@ const Tanglefolk: FC<TanglefolkProps> = ({}) => {
             leave tangle kisses in a child’s hair as a thank-you. Each night,
             the Tanglefolk gather the strands children naturally shed and spin
             them into twinkling thread for tiny hats, coats, and dresses.
-            Morning bed head? Not an issue. It's a sprinkle of magic, proof that
+            Morning bed head? Not an issue. It’s a sprinkle of magic, proof that
             tiny weavers visited while your child dreamt.
           </p>
           <Button btnStyle="cta" onClick={() => open("purchase")}>
