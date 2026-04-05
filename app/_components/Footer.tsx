@@ -2,6 +2,7 @@ import { FC } from "react";
 import Container from "./Container";
 import { PiBookOpen } from "react-icons/pi";
 import styles from "./Footer.module.scss";
+import { siteConfig } from "../_lib/site";
 
 type FooterProps = object;
 
@@ -14,6 +15,13 @@ const Footer: FC<FooterProps> = ({}) => {
           <a href="https://thechosenlady.online" target="_blank">
             <PiBookOpen />
           </a>
+        </div>
+
+        <div className={styles.copyright}>
+          <p>
+            &copy; {new Date().getFullYear()} {siteConfig.name}. All rights
+            reserved.
+          </p>
         </div>
       </Container>
     </footer>
